@@ -1,17 +1,16 @@
-import Head from 'next/head';
+export const metadata = {
+  title: "Inicio | Web de Productos",
+  description: "Bienvenido a nuestra tienda en línea con productos optimizados para SEO.",
+  openGraph: {
+    title: "Inicio - Web de Productos",
+    description: "Explora nuestros productos destacados desde la página de inicio.",
+  },
+};
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Inicio | Mi Proyecto SEO</title>
-        <meta name="description" content="Bienvenido a la página principal de mi sitio web optimizado para SEO." />
-        <meta property="og:title" content="Inicio - Proyecto SEO" />
-        <meta property="og:description" content="Conoce nuestra página principal y sus características." />
-      </Head>
-      <main>
-        <h1>Página de Inicio</h1>
-      </main>
-    </>
+    <main>
+      <h1>Página de Inicio</h1>
+    </main>
   );
 }
