@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-  const baseUrl = 'https://tusitio.vercel.app'; // O usa localhost para pruebas locales
+  const baseUrl = 'https://lab14-daw.vercel.app'; // O usa localhost para pruebas locales
 
   // Simulamos una base de datos
   const pages = [
